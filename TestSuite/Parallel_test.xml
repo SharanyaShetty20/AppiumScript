@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Mobile Demo Suite" parallel="tests" thread-count="10" verbose="1">
+	<test name="Simple execution tests Android" parallel="methods" enabled="true">
+		<classes>
+			<class name="appium.ParallelTest"></class>
+		</classes>
+	</test>
+</suite>
