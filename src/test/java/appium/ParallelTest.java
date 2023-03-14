@@ -24,8 +24,8 @@ public class ParallelTest {
 		caps.setCapability("appium:deviceName", "Samsung.*");
 		caps.setCapability("appium:automationName", "UiAutomator2");
 		MutableCapabilities sauceOptions = new MutableCapabilities();
-		sauceOptions.setCapability("build", "<your build id>");
-		sauceOptions.setCapability("name", "<your test name>");
+		sauceOptions.setCapability("build", "build-1");
+		sauceOptions.setCapability("name", "Appium Test");
 		caps.setCapability("sauce:options", sauceOptions);
 
 		URL url = new URL("https://oauth-sharanyashetty04-38ed4:3a2df9ef-1172-477f-8146-abd99fc41915@ondemand.eu-central-1.saucelabs.com:443/wd/hub");
