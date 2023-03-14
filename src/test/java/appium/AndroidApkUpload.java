@@ -37,7 +37,7 @@ public class AndroidApkUpload {
 
 	@Test
 	public static void MobileiOS() throws Exception{
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 
 	@AfterTest
